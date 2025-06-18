@@ -18,3 +18,13 @@ This project demonstrates an end-to-end machine learning pipeline from acquiring
 - Deploy to a **cloud platform** (TBD).
 
 ---
+
+# LLM-RAG-PDFs
+
+This project pulls data from a folder of PDF files, uses RAG (Retrieval-Augmented Generation) to integrate them into an LLM model and uses a Gradio chatbot interface to allow you to ask questions about the information within the PDFs.
+
+## 🔧 Project Overview
+
+- **Python Libraries**: Uses **PyMuPDF** to pull data from PDF files.
+- **Retrieval-Augmented Generation**: Built with **Langchain** library to split text, convert to chunks, and store as vectors within a **Chroma** database
+- **LLM Models**: Made with Open AI's **ChatGPT 40-mini** and fed through a **Gradio** chatbot in order to interfact with the text.
