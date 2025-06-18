@@ -54,7 +54,7 @@ This project pulls uses a **Reddit API** to pull top comments from the top posts
 
 # 🤝 Prisoner's Dilemma Tournament
 
-A simulation of the Iterated Prisoner's Dilemma featuring multiple adaptive strategies and visualization of results.
+A simulation of the Iterated Prisoner’s Dilemma featuring multiple adaptive strategies created from both closed and open source LLM models to see how well each model can build a strategy from a given base class and multi-shot prompting.
 
 ## 🔧 Project Overview
 
