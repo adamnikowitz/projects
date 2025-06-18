@@ -18,6 +18,8 @@ This project demonstrates an end-to-end machine learning pipeline from acquiring
 - Deploy to a **cloud platform** (TBD).
 
 ---
+<br><br>
+
 
 # 📰 LLM-RAG-PDFs
 
@@ -30,6 +32,8 @@ This project pulls data from a folder of PDF files, uses **RAG (Retrieval-Augmen
 - **LLM Models**: Made with Open AI's **ChatGPT 40-mini** and fed through a **Gradio** chatbot in order to interfact with the text.
 
 ---
+<br><br>
+
 
 # 🤖  LLM-Subreddit-Summarizer
 
@@ -43,3 +47,39 @@ This project pulls uses a **Reddit API** to pull top comments from the top posts
   ## 🚀 Next Steps
 
 - Sentiment analysis or additional analysis through **RAG (Retrieval-Augmented Generation)** process to embed text within LLM models for conversational interactions.
+
+---
+<br><br>
+
+
+# 🤝 Prisoner's Dilemma Tournament
+
+A simulation of the Iterated Prisoner's Dilemma featuring multiple adaptive strategies and visualization of results.
+
+## 🔧 Project Overview
+
+- **Game Mechanics**: Simulates repeated rounds of the classic Prisoner's Dilemma between multiple AI agents.
+- **Strategies Implemented**:
+  - `Win-Stay-Lose-Shift`
+  - `Adaptive Tit-for-Tat`
+  - `Forgiving Tit-for-Tat`
+  - `Pattern Detection`
+  - `Random Strategy` (added by me because the LLMs were playing too rationally)
+- **Scoring**: Agents accumulate points based on classic payoff rules.
+- **Visualization**: Results are graphed using **Matplotlib**, including:
+  - Line graph showing scores over time
+  - Final rankings by total score
+
+## 🛠️ Technologies Used
+
+- Python
+- Object-Oriented Programming (OOP)
+- Matplotlib for graphing
+- (Optional) Jupyter Notebooks for step-by-step visualization
+
+## 🚀 Future Ideas
+
+- Add genetic algorithms to evolve strategies
+- Allow user input to participate as a player
+- Web interface with **Gradio** or **FastAPI**
+- Export results to CSV or database
