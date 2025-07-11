@@ -1,0 +1,55 @@
+generate_problem_task:
+  description: >
+    Generate a {difficulty} difficulty coding problem based on the user's weaknesses 
+    and learning history. The problem should:
+    
+    1. Target specific weakness areas identified in the user's history
+    2. Include a clear problem statement
+    3. Provide example inputs and outputs
+    4. Include comprehensive test cases
+    5. Specify the expected time and space complexity
+    
+    Use the problem_generator tool to get user context and weaknesses.
+  expected_output: >
+    A string with the problem description.
+  agent: problem_generator
+
+execute_code_task:
+  description: >
+    Execute the following user code against the provided test cases:
+            
+    User Code:
+    {user_code}
+    
+    Test Cases:
+    {test_cases}
+    
+    Use the docker_code_executor tool to run the code safely and return:
+    1. Execution results
+    2. Test case pass/fail status
+    3. Any runtime errors or exceptions
+    4. Performance observations
+  expected_output: >
+    Detailed execution report with test results and error analysis
+  agent: code_executor
+
+review_code_task:
+  description: >
+    Review the following user code and execution results:
+            
+    User Code:
+    {user_code}
+    
+    Execution Results:
+    {execution_results}
+    
+    Provide a comprehensive code review including:
+    1. Code quality assessment
+    2. Algorithm efficiency analysis
+    3. Identification of specific weaknesses or knowledge gaps
+    4. Suggested improvements with explanations
+    5. Alternative approaches or optimizations
+    6. Areas for future learning focus
+  expected_output: >
+    Detailed code review with specific feedback and learning recommendations
+  agent: code_reviewer
