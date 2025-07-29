@@ -9,6 +9,9 @@ This project creates an intelligent AI-powered coding tutor that generates perso
 * **Adaptive Learning**: Adjusts problem difficulty based on user feedback and maintains learning history.
 * **Web Interface**: Interactive **Gradio** app with proper workflow - problem first, then code submission and feedback.
 
+---
+<br><br>
+
 # ⚾ Baseball-Model
 
 This project demonstrates an end-to-end machine learning pipeline from acquiring unstructured data through developing a model to predict pitcher strikouts and deploying it though FastAPI to serve a simple web app.
