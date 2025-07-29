@@ -1,3 +1,14 @@
+## **🚀 LeetCode-Tutor-AI**
+This project creates an intelligent AI-powered coding tutor that generates personalized programming problems, executes code safely in Docker containers, and provides detailed feedback to help users improve their coding interview skills.
+
+### **🔧 Project Overview**
+* **Problem Generation**: Uses **OpenAI GPT-4** to create diverse coding problems with randomized topics and difficulty levels.
+* **Code Execution**: Safely runs user solutions in isolated **Docker containers** with automatic package installation.
+* **AI Agents**: Built with **CrewAI** framework featuring specialized agents for problem generation, code execution, and code review.
+* **Memory System**: Tracks user progress, difficulty preferences, and learning patterns in **JSON-based storage**.
+* **Adaptive Learning**: Adjusts problem difficulty based on user feedback and maintains learning history.
+* **Web Interface**: Interactive **Gradio** app with proper workflow - problem first, then code submission and feedback.
+
 # ⚾ Baseball-Model
 
 This project demonstrates an end-to-end machine learning pipeline from acquiring unstructured data through developing a model to predict pitcher strikouts and deploying it though FastAPI to serve a simple web app.
